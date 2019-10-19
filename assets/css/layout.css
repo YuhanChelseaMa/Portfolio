@@ -64,7 +64,7 @@
 		position: absolute;
 		bottom: -4px;
 		left: 0;
-		background: #24ddaa;
+		background: #6E5CFF;
 
 		-webkit-transition: all 0.3s ease;
 				transition: all 0.3s ease;
@@ -182,7 +182,7 @@
 				transition: all 0.3s ease;
 	}
 
-	.blog .blog-entry:hover .desc .title a { border-bottom: 2px solid #24ddaa; }
+	.blog .blog-entry:hover .desc .title a { border-bottom: 2px solid #6E5CFF; }
 
 	/** single post */
 
@@ -263,7 +263,7 @@
 				transition: all 0.3s ease;
 	}
 
-	.copy a:hover { border-bottom: 2px solid #24ddaa; }
+	.copy a:hover { border-bottom: 2px solid #6E5CFF; }
 
 
 /** misc
@@ -389,7 +389,7 @@
 				transition: all 0.3s ease;
 	}
 
-	.share li a:hover { color: #24ddaa; }
+	.share li a:hover { color: #6E5CFF; }
 
 	/** reveal */
 
