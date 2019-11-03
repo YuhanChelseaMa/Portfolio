@@ -285,13 +285,13 @@ a.link:hover {
 		.column-left {
 			width: 100% !important;
 			padding: 0 !important;
-			margin-bottom: 50px;
+			margin-bottom: 40px;
 		}
 
     .column-right {
 			width: 100% !important;
 			padding: 0 !important;
-			margin-bottom: 50px;
+			margin-bottom: 40px;
 		}
 
 		.column-left:last-child { margin-bottom: 0; }
@@ -302,7 +302,8 @@ a.link:hover {
       line-height: 30px;
       padding-top: 40px;
     }
-    .main-content { padding-top: 80px; }
+		
+    .main-content { padding-top: 100px; }
 
     .nav{
       margin-top: 0;
