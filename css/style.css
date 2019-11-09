@@ -350,6 +350,10 @@ a.link:hover {
       display: none;
     }
 
+    .parallax {
+      display: none;
+    }
+
 	}
 
 	@media (max-width: 500px) {
