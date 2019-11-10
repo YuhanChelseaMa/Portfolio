@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
-/* Basics */
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
@@ -274,9 +273,11 @@ a.link:hover {
 
 /* Responsiveness */
 
-  @media screen and (prefers-reduced-motion: reduce) { }
-
-  @media screen and (prefers-reduced-motion) { }
+    @media (prefers-reduced-motion: reduce) {
+  .animation {
+    animation: none;
+    }
+  }
 
 	@media (max-width: 1440px) {
     .profile-pic {
