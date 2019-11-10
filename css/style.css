@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
+/* Basics */
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
@@ -270,120 +271,7 @@ a.link:hover {
     background-color: #ffffff;
 }
 
-
-/* Responsiveness */
-
-    @media (prefers-reduced-motion: reduce) {
-  .animation {
-    animation: none;
-    }
-  }
-
-	@media (max-width: 1440px) {
-    .profile-pic {
-      display: none;
-    }
-  }
-
-  @media (max-width: 1200px) {
-    .profile-pic {
-      display: inline-block;
-    }
-
-    .flip-card {
-      display: none;
-  }
-
-	@media (max-width: 1024px) {
-    .container {margin-top: 40; }
-
-    h1 { font-size: 22px; line-height: 2;}
-    h2 { font-size: 15px; line-height: 2;}
-    h3 { font-size: 12px; }
-    p { font-size: 15px;}
-
-    .body {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-
-    .main-content { padding-top: 100px; }
-
-		.column-left {
-			width: 100% !important;
-			padding: 0 !important;
-			margin-bottom: 40px;
-		}
-
-    .column-right {
-			width: 100% !important;
-			padding: 0 !important;
-			margin-bottom: 40px;
-		}
-
-		.column-left:last-child { margin-bottom: 0; }
-    .column-right:last-child { margin-bottom: 0; }
-
-    .header {
-      position: relative;
-      line-height: 30px;
-      padding-top: 40px;
-    }
-
-    .nav{
-      margin-top: 0;
-    }
-		.nav li {
-			display: block;
-			margin: 0;
-			text-align: right;
-		}
-
-    .nav li a {
-      font-size: 14px;
-    }
-
-    .nav li.sub-menu {
-      position: relative;
-      margin-bottom: 15px;
-    }
-
-    label {
-      font-size: 14px;
-    }
-
-    .profile-pic {
-      display: inline-block;
-    }
-
-    .flip-card {
-      display: none;
-    }
-
-    .parallax {
-      display: none;
-    }
-
-	}
-
-	@media (max-width: 500px) {
-		.container {padding: 0px;}
-
-    .body {
-      padding-left: 5px;
-      padding-right: 5px;
-    }
-
-    .gallery {
-      width: 100%;
-    }
-
-    .parallax {
-      display: none;
-    }
-	}
-
-/* Jump to Content */
+/* Skip to Content */
 .skip{
     left:-999px;
     position:absolute;
@@ -463,3 +351,109 @@ a.link:hover {
   justify-content: center;
   align-items: center;
 }
+
+
+/* Responsiveness */
+
+  @media (prefers-reduced-motion: reduce) {
+  .animation {
+    animation: none;
+    }
+  }
+
+	@media (min-width: 1024px) {
+    .profile-pic {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .profile-pic {
+      display: inline-block;
+    }
+
+    .flip-card {
+      display: none;
+  }
+
+	@media (max-width: 1024px) {
+
+    .container {margin-top: 40; }
+
+    h1 { font-size: 22px; line-height: 2;}
+    h2 { font-size: 15px; line-height: 2;}
+    h3 { font-size: 12px; }
+    p { font-size: 15px;}
+
+    .body {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .main-content { padding-top: 100px; }
+
+		.column-left {
+			width: 100% !important;
+			padding: 0 !important;
+			margin-bottom: 40px;
+		}
+
+    .column-right {
+			width: 100% !important;
+			padding: 0 !important;
+			margin-bottom: 40px;
+		}
+
+		.column-left:last-child { margin-bottom: 0; }
+    .column-right:last-child { margin-bottom: 0; }
+
+    .header {
+      position: relative;
+      line-height: 30px;
+      padding-top: 40px;
+    }
+
+    .nav{
+      margin-top: 0;
+    }
+		.nav li {
+			display: block;
+			margin: 0;
+			text-align: right;
+		}
+
+    .nav li a {
+      font-size: 14px;
+    }
+
+    .nav li.sub-menu {
+      position: relative;
+      margin-bottom: 15px;
+    }
+
+    label {
+      font-size: 14px;
+    }
+
+    .parallax {
+      display: none;
+    }
+
+	}
+
+	@media (max-width: 500px) {
+		.container {padding: 0px;}
+
+    .body {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    .gallery {
+      width: 100%;
+    }
+
+    .parallax {
+      display: none;
+    }
+	}
