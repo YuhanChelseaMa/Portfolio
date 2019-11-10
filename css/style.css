@@ -260,6 +260,7 @@ a.link:hover {
 .footer {
     display: flex;
     margin-top: 10px;
+    margin-bottom: 40px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -459,4 +460,3 @@ a.link:hover {
       display: none;
     }
 	}
-
