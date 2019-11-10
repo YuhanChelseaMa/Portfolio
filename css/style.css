@@ -285,6 +285,15 @@ a.link:hover {
     }
   }
 
+  @media (max-width: 1200px) {
+    .profile-pic {
+      display: inline-block;
+    }
+
+    .flip-card {
+      display: none;
+  }
+
 	@media (max-width: 1024px) {
     .container {margin-top: 40; }
 
