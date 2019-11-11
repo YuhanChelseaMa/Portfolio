@@ -269,7 +269,7 @@ a.link:hover {
     background-color: #ffffff;
 }
 
-/* Skip to Content */
+/* Jump to Content */
 .skip{
     left:-999px;
     position:absolute;
@@ -279,6 +279,16 @@ a.link:hover {
     overflow:hidden;
     z-index:-999;
 }
+
+a.skip:focus{
+  left: 0;
+  top: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+ }
 
 /* Parallax Image */
 .parallax {
@@ -358,6 +368,7 @@ a.link:hover {
     animation: none;
     }
   }
+
 
 	@media (min-width: 1024px) {
     .profile-pic {
@@ -460,4 +471,3 @@ a.link:hover {
       display: none;
     }
 	}
-
