@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
+/* Basics */
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
@@ -134,12 +135,9 @@ a.link:hover {
 .gallery {
   max-width: 1440px;
   margin: auto;
-}
-
-.gallery {
-  font-size: 0;
-  flex-flow: row wrap;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .gallery div {
@@ -361,6 +359,7 @@ a.skip:focus{
 
 
 /* Responsiveness */
+
   @media screen and (prefers-reduced-motion: reduce){
     html{
         scroll-behavior: auto;
@@ -413,6 +412,11 @@ a.skip:focus{
     }
 
     .main-content { padding-top: 100px; }
+
+    .gallery {
+      width: 100%;
+      flex-direction: row;
+    }
 
 		.column-left {
 			width: 100% !important;
@@ -477,6 +481,7 @@ a.skip:focus{
 
     .gallery {
       width: 100%;
+      flex-direction: column;
     }
 
     .parallax {
